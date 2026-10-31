@@ -1,6 +1,6 @@
 # Stitchfits — Alpha Preview
 
-[**Download the portable Windows x64 build — v0.2.110**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.110/Stitchfits-Testers-v0.2.110-Windows-x64.zip)
+[**Download the portable Windows x64 build — v0.2.111**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.111/Stitchfits-Testers-v0.2.111-Windows-x64.zip)
 
 Download the ZIP above, extract all files, and open **Stitchfits.exe**. No installer,
 Python, Rust, or separate runtime setup is required. Run it from a folder you can
