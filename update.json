@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "version": "0.2.110",
+  "bytes": 39821824,
+  "sha256": "4e248d9e87b3a74b23205c1d98e5d0d529fe16f3744e875d11f2dee0b30d6598",
+  "notes": "Portable tester updates: background checks, Help > Check for updates, verified downloads, and restart in the same folder with a previous-version backup. Based on the verified v0.2.109 digitizing core."
+}
