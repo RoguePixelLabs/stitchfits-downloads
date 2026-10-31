@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.115",
-  "bytes": 97460736,
-  "sha256": "e28746e773682453fdfde81abe452a14704bc4aad556fb814a782e2a0c9e4696",
-  "notes": "Continue digitizing from the right-click menu: extend Run, Satin line or paired satin columns from either end. Settings, curves and sequence are retained, with Esc cancellation and Undo. No expiration; portable GPL build."
+  "version": "0.2.116",
+  "bytes": 97488896,
+  "sha256": "2d46b48ad14caefcb426a3f63415f9e2399fd2585560d745cb2cc356536fc0ef",
+  "notes": "Direct corner rotation for single objects and selections, live stitch preview in both views, Shift 15-degree snapping, Escape cancellation and Undo. Square corners still resize. Portable GPL build; no expiration."
 }
