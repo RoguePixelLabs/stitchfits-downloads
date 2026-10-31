@@ -1,6 +1,6 @@
 # Stitchfits — Alpha Preview
 
-[**Download the portable Windows x64 build — v0.2.113**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.113/Stitchfits-Testers-v0.2.113-Windows-x64.zip)
+[**Download the portable Windows x64 build — v0.2.114**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.114/Stitchfits-Testers-v0.2.114-Windows-x64.zip)
 
 Download the ZIP above, extract all files, and open **Stitchfits.exe**. No installer,
 Python, Rust, or separate runtime setup is required. Run it from a folder you can
@@ -10,14 +10,21 @@ The app checks for newer tester builds in the background. Use **Help → Check f
 updates** at any time. Save your work, then choose **Restart and update**. The
 application updates in its existing folder and retains the previous EXE as a backup.
 
-Testing expires **20 December 2026 at 00:00 UTC**, using the existing shared
-campaign deadline. First launch verifies the date online; verification repeats
-every seven days. Updates do not restart the testing period. Design files remain
-on your computer. This alpha has unfinished digitizing and import features.
+There is **no expiration or required online date verification**. Generation is
+local; artwork is not uploaded. Optional update checks use this public repository.
+The portable EXE includes the combined engine runtime and needs no separate
+Python or Inkscape installation. The first combined generation unpacks a verified
+runtime in Windows local application storage, then reuses it.
 
-This repository contains public download files and update information only.
-The application source repository remains private. The automatic “Source code”
-archives on release pages are not the application; use the Windows ZIP linked above.
+## GPL source
+
+[**Download the corresponding application source — v0.2.114**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.114/Stitchfits-Source-v0.2.114.zip)
+
+Stitchfits-owned code is GPL-3.0-or-later. Dependency and font licenses remain in
+force. The named source ZIP includes production code, pinned Ink/Stitch and inkex
+source, licenses, build scripts and self-contained tests. Old private source
+history, local research, settings and private designs remain private. GitHub's
+automatic source archives of this download repository are not application source.
 
 ## Feedback
 
