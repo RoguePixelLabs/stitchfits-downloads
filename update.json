@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.112",
-  "bytes": 39592448,
-  "sha256": "9b06607382992fcd20b1a004509cb1b9a38cced255654bf6d61346f3946be2c1",
-  "notes": "More natural Thread View: finer filament shading, softer highlights, Matte/Soft sheen/Glossy finish choices, needle-entry shading and a cached woven background. Actual stitch paths and sewing order are preserved. Existing portable updates and tester expiration are retained."
+  "version": "0.2.113",
+  "bytes": 43671040,
+  "sha256": "4e338c47eec5c30145a923ac27540cb63877756e768eede8db9d686e2f4dc979",
+  "notes": "28 additional native font adaptations, 31 built-in choices total: script, serif, Gothic, geometric and architectural styles in running or satin. Searchable font dropdowns, editable embedded glyphs, fixed narrow-character size checks and software validation across each font range. Includes complete open font licenses. Existing portable updates and tester expiration are retained."
 }
