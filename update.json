@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.111",
-  "bytes": 39582720,
-  "sha256": "3356cf442f7cdcd0b273651a7b88c2bce04ae1755c4c213184c9e311bf4af012",
-  "notes": "Drag supported machine files, Stitchfits projects or SVG paths into the preview to add them at original size. Background loading, one-step Undo, preserved groups and stitch data, and a clear drop highlight. Existing portable updates and tester expiration are retained."
+  "version": "0.2.112",
+  "bytes": 39592448,
+  "sha256": "9b06607382992fcd20b1a004509cb1b9a38cced255654bf6d61346f3946be2c1",
+  "notes": "More natural Thread View: finer filament shading, softer highlights, Matte/Soft sheen/Glossy finish choices, needle-entry shading and a cached woven background. Actual stitch paths and sewing order are preserved. Existing portable updates and tester expiration are retained."
 }
