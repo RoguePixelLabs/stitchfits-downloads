@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.113",
-  "bytes": 43671040,
-  "sha256": "4e338c47eec5c30145a923ac27540cb63877756e768eede8db9d686e2f4dc979",
-  "notes": "28 additional native font adaptations, 31 built-in choices total: script, serif, Gothic, geometric and architectural styles in running or satin. Searchable font dropdowns, editable embedded glyphs, fixed narrow-character size checks and software validation across each font range. Includes complete open font licenses. Existing portable updates and tester expiration are retained."
+  "version": "0.2.114",
+  "bytes": 97444864,
+  "sha256": "0ef97fe6d58dc68b7e3af945e3280a4d53f04f7f5b381b4c015b8c1ae31a570d",
+  "notes": "Combined Ink/Stitch + native generation, responsive background updates, preserved native special settings, no expiration, GPL source included. Existing projects retain Native; choose Settings > Stitch engine to switch."
 }
