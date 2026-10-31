@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.116",
-  "bytes": 97488896,
-  "sha256": "2d46b48ad14caefcb426a3f63415f9e2399fd2585560d745cb2cc356536fc0ef",
-  "notes": "Direct corner rotation for single objects and selections, live stitch preview in both views, Shift 15-degree snapping, Escape cancellation and Undo. Square corners still resize. Portable GPL build; no expiration."
+  "version": "0.2.117",
+  "bytes": 97497600,
+  "sha256": "515475768528ca25b5accde8a7a0751ec7abbec37e7ee2e10d30250ee6257b40",
+  "notes": "Simpler panels: one collapse/expand button and draggable headers. Blocks can cross previous patches while retaining valid local rails and stitch order. Font type filters for Satin, Run, mixed, TTF/OTF and recorded embroidery. Playback opens beside its button; reset imported size and contextual hover help. Portable GPL build; no expiration."
 }
