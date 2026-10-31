@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.117",
+  "version": "0.2.118",
   "bytes": 97497600,
-  "sha256": "515475768528ca25b5accde8a7a0751ec7abbec37e7ee2e10d30250ee6257b40",
-  "notes": "Simpler panels: one collapse/expand button and draggable headers. Blocks can cross previous patches while retaining valid local rails and stitch order. Font type filters for Satin, Run, mixed, TTF/OTF and recorded embroidery. Playback opens beside its button; reset imported size and contextual hover help. Portable GPL build; no expiration."
+  "sha256": "a31ba83ba8a3e528166bc8080bf2fe0234bf1eb013fa18f1e505f3036ae630c4",
+  "notes": "Matte Thread View by default, softer thread shading and no white reflection pass at zero sheen. Older saved glossy defaults migrate once; later choices are kept. Angled Tatami coverage and wire/thread sewing-plan checks added. Angled Tatami cleanup preserves dense-row endpoints instead of shearing cover into diagonal travel. Portable GPL build; no expiration."
 }
