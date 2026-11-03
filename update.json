@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.118",
-  "bytes": 97497600,
-  "sha256": "a31ba83ba8a3e528166bc8080bf2fe0234bf1eb013fa18f1e505f3036ae630c4",
-  "notes": "Matte Thread View by default, softer thread shading and no white reflection pass at zero sheen. Older saved glossy defaults migrate once; later choices are kept. Angled Tatami coverage and wire/thread sewing-plan checks added. Angled Tatami cleanup preserves dense-row endpoints instead of shearing cover into diagonal travel. Portable GPL build; no expiration."
+  "version": "0.2.126",
+  "bytes": 90595840,
+  "sha256": "6cfcd72b7acffee8871786bdf856d14b787e0ee5c6db0ef14b5aeaf0a323052c",
+  "notes": "Rust/egui lightweight interface replaces the Slint comparison frontend. Simple direct GPU-shaded 2D Thread View removes the Filament rendering helper and CPU preview-image transfers. Executable is 22.8% smaller than the local v0.2.125 build. Existing stitch engine, editable objects, fonts and formats retained. 122 automated tests plus hardware/software rendering checks passed. Save designs before updating; previous EXE retained. This is an alpha display update, not a physical sew-out simulation."
 }
