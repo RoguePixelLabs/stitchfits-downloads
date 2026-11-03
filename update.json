@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.126",
-  "bytes": 90595840,
-  "sha256": "6cfcd72b7acffee8871786bdf856d14b787e0ee5c6db0ef14b5aeaf0a323052c",
-  "notes": "Rust/egui lightweight interface replaces the Slint comparison frontend. Simple direct GPU-shaded 2D Thread View removes the Filament rendering helper and CPU preview-image transfers. Executable is 22.8% smaller than the local v0.2.125 build. Existing stitch engine, editable objects, fonts and formats retained. 122 automated tests plus hardware/software rendering checks passed. Save designs before updating; previous EXE retained. This is an alpha display update, not a physical sew-out simulation."
+  "version": "0.2.128",
+  "bytes": 90629120,
+  "sha256": "1872a13277fdb81e13ee4ea87bce677f45cb3b902b46f46d35fd1564e310aeeb",
+  "notes": "Line view is now the launch default. Charcoal-and-pink workspace with labeled vector tool icons, compact playback controls below the canvas, and side-by-side Properties / Objects & Stitch Order panels. Thread colors stay below the preview; duplicate right color table, top Select button, and left Tool Options removed. Selection highlighting is softer. Object color pickers now require OK: previewing colors does not add them to the palette; Cancel or clicking outside discards the draft. Confirmed recoloring is one undoable edit. Existing stitch engine, editable projects and lightweight renderer retained. 99 automated tests and 7 GPU checks passed. Save designs before restarting to update; the previous EXE is retained."
 }
