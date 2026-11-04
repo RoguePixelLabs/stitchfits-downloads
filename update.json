@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.141",
-  "bytes": 90780672,
-  "sha256": "d33c6245a0471079e42eaebf8d71e371a580281d4ad93cd41c890bd19bf7f67c",
-  "notes": "New in v0.2.141: thicker red hoop boundary; click an angle line then Delete, or right-click an object to delete all angle lines; closed Tatami converts to a Satin area fill with Auto Split enabled; improved rows through narrow turning bands; bounded automatic curve handles; canvas focus and multi-selection safeguards, plus Select only this object. Includes the single-window thread color chooser, artwork eyedropper, 0.10x playback and earlier background/cut-out improvements. 209 regression checks and 7 graphics checks passed. Save your work before updating. Projects containing the new Satin area fills require v0.2.141 or newer. Original saved node geometry is retained. Physical sew-out results have not been verified."
+  "version": "0.2.145",
+  "bytes": 90915328,
+  "sha256": "10abfc16dd314902c72cdb4cf9bd713dfcb03963022f39f86fb7ae54fbc45094",
+  "notes": "New thread preview: broad shading follows actual needle-to-needle spans and real split points, with the approved 0.38 mm Soft sheen preset. World-space GPU caches retain geometry across playback, pan, zoom, color and selection changes; selection buffers and native display formats are verified. Line view remains the default. Includes the local fixes from v0.2.142 through v0.2.144. Sewing commands and exports are unchanged. Save your work before updating. Thread view is a visual approximation; physical sew-outs are not verified."
 }
