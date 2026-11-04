@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.130",
-  "bytes": 90594304,
-  "sha256": "ab698cce06a8f9fcc392e2ab459299a8b0165dd554459c554fd573df5e5097c5",
-  "notes": "New Stitched S icon and matching branding. More compact status bar and header; brief action notices and small help popups replace repeated instructions. Smaller Lettering, Font Manager, About, Tools and Batch Export windows. Sewing warnings retain full Details. Properties and objects remain side by side, colors stay below the canvas, and line view remains the default. 101 automated Windows tests passed. Stitch generation and machine-format behavior are unchanged. Save designs before restarting to update; the previous EXE is retained."
+  "version": "0.2.141",
+  "bytes": 90780672,
+  "sha256": "d33c6245a0471079e42eaebf8d71e371a580281d4ad93cd41c890bd19bf7f67c",
+  "notes": "New in v0.2.141: thicker red hoop boundary; click an angle line then Delete, or right-click an object to delete all angle lines; closed Tatami converts to a Satin area fill with Auto Split enabled; improved rows through narrow turning bands; bounded automatic curve handles; canvas focus and multi-selection safeguards, plus Select only this object. Includes the single-window thread color chooser, artwork eyedropper, 0.10x playback and earlier background/cut-out improvements. 209 regression checks and 7 graphics checks passed. Save your work before updating. Projects containing the new Satin area fills require v0.2.141 or newer. Original saved node geometry is retained. Physical sew-out results have not been verified."
 }
