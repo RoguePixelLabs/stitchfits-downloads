@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.128",
-  "bytes": 90629120,
-  "sha256": "1872a13277fdb81e13ee4ea87bce677f45cb3b902b46f46d35fd1564e310aeeb",
-  "notes": "Line view is now the launch default. Charcoal-and-pink workspace with labeled vector tool icons, compact playback controls below the canvas, and side-by-side Properties / Objects & Stitch Order panels. Thread colors stay below the preview; duplicate right color table, top Select button, and left Tool Options removed. Selection highlighting is softer. Object color pickers now require OK: previewing colors does not add them to the palette; Cancel or clicking outside discards the draft. Confirmed recoloring is one undoable edit. Existing stitch engine, editable projects and lightweight renderer retained. 99 automated tests and 7 GPU checks passed. Save designs before restarting to update; the previous EXE is retained."
+  "version": "0.2.130",
+  "bytes": 90594304,
+  "sha256": "ab698cce06a8f9fcc392e2ab459299a8b0165dd554459c554fd573df5e5097c5",
+  "notes": "New Stitched S icon and matching branding. More compact status bar and header; brief action notices and small help popups replace repeated instructions. Smaller Lettering, Font Manager, About, Tools and Batch Export windows. Sewing warnings retain full Details. Properties and objects remain side by side, colors stay below the canvas, and line view remains the default. 101 automated Windows tests passed. Stitch generation and machine-format behavior are unchanged. Save designs before restarting to update; the previous EXE is retained."
 }
