@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.145",
-  "bytes": 90915328,
-  "sha256": "10abfc16dd314902c72cdb4cf9bd713dfcb03963022f39f86fb7ae54fbc45094",
-  "notes": "New thread preview: broad shading follows actual needle-to-needle spans and real split points, with the approved 0.38 mm Soft sheen preset. World-space GPU caches retain geometry across playback, pan, zoom, color and selection changes; selection buffers and native display formats are verified. Line view remains the default. Includes the local fixes from v0.2.142 through v0.2.144. Sewing commands and exports are unchanged. Save your work before updating. Thread view is a visual approximation; physical sew-outs are not verified."
+  "version": "0.2.157",
+  "bytes": 113804288,
+  "sha256": "7d945da14a595bd48e19cc58ca169e3173ec2758df0e4cc4f31fab30b4bf5f47",
+  "notes": "Changes since v0.2.145\n\n- Blocks shows a live length line and displays millimeters for width only. Right-click curve nodes trace a rounder arc while drawing.\n- Ask Stitchfits opens in a movable chat bubble with an animated needle. Press Enter to submit. Foam troubleshooting uses the selected object or the open wizard's error and asks a follow-up when needed.\n- The 3D Foam Puff wizard sets up cover spacing, end caps and an optional placement break for compatible editable satin objects and lettering.\n- Thread View hides imported travel verified against a matching PES or PEC. Original machine stitch commands are kept for export.\n- Adds design tabs, a thumbnail library and print preview for one-page or actual-size tiled output, plus linear Tatami gradients, artwork import and lettering improvements.\n\nSave your designs before updating. Test foam coverage and the machine pause on scrap before sewing a finished item."
 }
