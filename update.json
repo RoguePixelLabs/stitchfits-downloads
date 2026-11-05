@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.157",
-  "bytes": 113804288,
-  "sha256": "7d945da14a595bd48e19cc58ca169e3173ec2758df0e4cc4f31fab30b4bf5f47",
-  "notes": "Changes since v0.2.145\n\n- Blocks shows a live length line and displays millimeters for width only. Right-click curve nodes trace a rounder arc while drawing.\n- Ask Stitchfits opens in a movable chat bubble with an animated needle. Press Enter to submit. Foam troubleshooting uses the selected object or the open wizard's error and asks a follow-up when needed.\n- The 3D Foam Puff wizard sets up cover spacing, end caps and an optional placement break for compatible editable satin objects and lettering.\n- Thread View hides imported travel verified against a matching PES or PEC. Original machine stitch commands are kept for export.\n- Adds design tabs, a thumbnail library and print preview for one-page or actual-size tiled output, plus linear Tatami gradients, artwork import and lettering improvements.\n\nSave your designs before updating. Test foam coverage and the machine pause on scrap before sewing a finished item."
+  "version": "0.2.161",
+  "bytes": 113856512,
+  "sha256": "3f68ab64ffaea4bbc8f97681a57d8b0395a6a005d1d38455271bc2ea47e3033b",
+  "notes": "Changes since v0.2.157\n\n- Each design tab has its own close button, with the new-tab button beside the tab strip.\n- Menus use shorter labels and move object actions to the right-click menu. Toolbar commands return to menus when unpinned.\n- Help > Resource Guide opens seven searchable offline pages, including bag tags, foam, and an editable practice badge.\n- Ask Stitchfits uses a smaller window with transparent edges, gives directions based on the current toolbar layout, and explains how to pin tools. Replies can open guide pages or copy your question.\n- Lettering has a simpler layout with stitch and spacing controls under Advanced.\n- Blocks previews both guide lines and shows the width in millimeters.\n\nSave any open designs before updating."
 }
