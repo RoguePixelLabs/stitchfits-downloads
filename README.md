@@ -1,6 +1,6 @@
 # Stitchfits — Alpha Preview
 
-[**Download the portable Windows x64 build — v0.2.157**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.157/Stitchfits-Testers-v0.2.157-Windows-x64.zip)
+[**Download the portable Windows x64 build — v0.2.161**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.161/Stitchfits-Testers-v0.2.161-Windows-x64.zip)
 
 Download the ZIP above, extract all files, and open **Stitchfits.exe**. No installer,
 Python, Rust, or separate runtime setup is required. Run it from a folder you can
@@ -18,7 +18,7 @@ runtime in Windows local application storage, then reuses it.
 
 ## GPL source
 
-[**Download the corresponding application source — v0.2.157**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.157/Stitchfits-Source-v0.2.157.zip)
+[**Download the corresponding application source — v0.2.161**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.161/Stitchfits-Source-v0.2.161.zip)
 
 Stitchfits-owned code is GPL-3.0-or-later. Dependency and font licenses remain in
 force. The named source ZIP includes production code, pinned Ink/Stitch and inkex
