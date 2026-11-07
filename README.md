@@ -1,45 +1,50 @@
-# Stitchfits — Alpha Preview
+<!-- stitchfits-tester-readme -->
+# Stitchfits
 
-[**Download the portable Windows x64 build — v0.2.174**](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.174/Stitchfits-Testers-v0.2.174-Windows-x64.zip)
+**Free embroidery digitizing software for Windows.** Create stitch designs from drawings, logos, or lettering. See how the design will sew, then export a file for your embroidery machine.
 
-Download the ZIP above, extract all files, and open **Stitchfits.exe**. No installer,
-Python, Rust, or separate runtime setup is required. Run it from a folder you can
-write to, such as Documents or Desktop.
+<!-- tester-download:start -->
+[**Download Stitchfits v0.2.174 for Windows (ZIP)**](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.174/Stitchfits-Testers-v0.2.174-Windows-x64.zip) · [What’s new in v0.2.174](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/tag/v0.2.174)
+<!-- tester-download:end -->
+
+## What you can do
+
+- **Draw your own stitches.** Use running stitches for fine lines, satin for smooth borders, and Tatami for larger filled areas.
+- **Work from artwork.** Bring in a picture or SVG as a guide, or add lettering directly to your design.
+- **See how it sews.** Preview the thread, choose colors, and play the design stitch by stitch to check the sewing order.
+- **Save and export.** Save an editable Stitchfits project and export machine formats such as DST, PES, EXP, and JEF. Check which format your machine uses.
+
+## Get started
+
+1. Download the Windows ZIP above. It’s for 64-bit Windows and runs without an installer.
+2. Right-click the ZIP and choose **Extract All**.
+3. Open the extracted folder and double-click **Stitchfits.exe**.
+
+For a first project, try drawing a small filled shape, adding a border, and watching it sew in the **Stitch Player**. Already using Stitchfits? Choose **Help → Check for Updates**.
+
+> **Alpha Preview** is an early test version. Save your editable project and sew a small test on scrap fabric before using a design on a finished item.
 
 <!-- screenshots:start -->
-## Screenshots
+## See it in action
 
 ### Thread View
 
-![Stitchfits Thread View showing a turquoise Tatami fill with a pink satin border and running-stitch detail](screenshots/thread-view.jpg)
+![A turquoise embroidery badge with a pink satin border in Stitchfits Thread View](screenshots/thread-view.jpg)
 
-### Digitizing workspace
+### Editing workspace
 
-![Stitchfits digitizing workspace showing the same badge in stitch-line view, with Tatami properties and stitch order visible](screenshots/editing-workspace.jpg)
+![The same badge in stitch-line view, with stitch settings and sewing order on the right](screenshots/editing-workspace.jpg)
 
 <!-- screenshots:end -->
 
-The app checks for newer tester builds in the background. Use **Help → Check for
-updates** at any time. Save your work, then choose **Restart and update**. The
-application updates in its existing folder and retains the previous EXE as a backup.
+## Share feedback
 
-There is **no expiration or required online date verification**. Generation is
-local; artwork is not uploaded. Optional update checks use this public repository.
-The portable EXE includes the combined engine runtime and needs no separate
-Python or Inkscape installation. The first combined generation unpacks a verified
-runtime in Windows local application storage, then reuses it.
+Tell us what you tried, what you expected, and what happened. Include your Stitchfits version and a screenshot if you can. [Report an issue on GitHub](https://github.com/RoguePixelLabs/stitchfits-downloads/issues/new).
 
-## GPL source
+## Open-source license
 
-[**Download the corresponding application source — v0.2.174**](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.174/Stitchfits-Source-v0.2.174.zip)
+Stitchfits is free and open source under GPL-3.0-or-later.
 
-Stitchfits-owned code is GPL-3.0-or-later. Dependency and font licenses remain in
-force. The named source ZIP includes production code, pinned Ink/Stitch and inkex
-source, licenses, build scripts and self-contained tests. Old private source
-history, local research, settings and private designs remain private. GitHub's
-automatic source archives of this download repository are not application source.
-
-## Feedback
-
-Report the app version, what you tried, what happened, and steps to reproduce it.
-Open a GitHub issue here, or send feedback through your usual tester contact.
+<!-- tester-source:start -->
+[Download the matching source for v0.2.174](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.174/Stitchfits-Source-v0.2.174.zip).
+<!-- tester-source:end -->
