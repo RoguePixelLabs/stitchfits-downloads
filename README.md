@@ -4,7 +4,7 @@
 **Free embroidery digitizing software for Windows.** Create stitch designs from drawings, logos, or lettering. See how the design will sew, then export a file for your embroidery machine.
 
 <!-- tester-download:start -->
-[**Download Stitchfits v0.2.174 for Windows (ZIP)**](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.174/Stitchfits-Testers-v0.2.174-Windows-x64.zip) · [What’s new in v0.2.174](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/tag/v0.2.174)
+[**Download Stitchfits v0.2.178 for Windows (ZIP)**](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.178/Stitchfits-Testers-v0.2.178-Windows-x64.zip) · [What’s new in v0.2.178](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/tag/v0.2.178)
 <!-- tester-download:end -->
 
 ## What you can do
@@ -37,6 +37,10 @@ For a first project, try drawing a small filled shape, adding a border, and watc
 
 <!-- screenshots:end -->
 
+## Optional Digitizing Lab
+
+[Download Digitizing Lab for Windows](https://github.com/RoguePixelLabs/stitchfits-digitizing-lab/releases). It converts artwork into editable embroidery. After installing it, choose **Design → Digitizing Lab** in Stitchfits. The Lab has its own release and update channel.
+
 ## Share feedback
 
 Tell us what you tried, what you expected, and what happened. Include your Stitchfits version and a screenshot if you can. [Report an issue on GitHub](https://github.com/RoguePixelLabs/stitchfits-downloads/issues/new).
@@ -46,5 +50,5 @@ Tell us what you tried, what you expected, and what happened. Include your Stitc
 Stitchfits is free and open source under GPL-3.0-or-later.
 
 <!-- tester-source:start -->
-[Download the matching source for v0.2.174](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.174/Stitchfits-Source-v0.2.174.zip).
+[Download the matching source for v0.2.178](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.178/Stitchfits-Source-v0.2.178.zip).
 <!-- tester-source:end -->
