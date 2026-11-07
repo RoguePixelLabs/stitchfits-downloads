@@ -1,10 +1,23 @@
 # Stitchfits — Alpha Preview
 
-[**Download the portable Windows x64 build — v0.2.171**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.171/Stitchfits-Testers-v0.2.171-Windows-x64.zip)
+[**Download the portable Windows x64 build — v0.2.171**](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.171/Stitchfits-Testers-v0.2.171-Windows-x64.zip)
 
 Download the ZIP above, extract all files, and open **Stitchfits.exe**. No installer,
 Python, Rust, or separate runtime setup is required. Run it from a folder you can
 write to, such as Documents or Desktop.
+
+<!-- screenshots:start -->
+## Screenshots
+
+### Thread View
+
+![Stitchfits Thread View showing a turquoise Tatami fill with a pink satin border and running-stitch detail](screenshots/thread-view.jpg)
+
+### Digitizing workspace
+
+![Stitchfits digitizing workspace showing the same badge in stitch-line view, with Tatami properties and stitch order visible](screenshots/editing-workspace.jpg)
+
+<!-- screenshots:end -->
 
 The app checks for newer tester builds in the background. Use **Help → Check for
 updates** at any time. Save your work, then choose **Restart and update**. The
@@ -18,7 +31,7 @@ runtime in Windows local application storage, then reuses it.
 
 ## GPL source
 
-[**Download the corresponding application source — v0.2.171**](https://github.com/cosmearamirez-web/stitchfits-downloads/releases/download/v0.2.171/Stitchfits-Source-v0.2.171.zip)
+[**Download the corresponding application source — v0.2.171**](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.171/Stitchfits-Source-v0.2.171.zip)
 
 Stitchfits-owned code is GPL-3.0-or-later. Dependency and font licenses remain in
 force. The named source ZIP includes production code, pinned Ink/Stitch and inkex
