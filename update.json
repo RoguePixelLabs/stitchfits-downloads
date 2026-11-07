@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.174",
-  "bytes": 113830912,
-  "sha256": "8b76c112d2f886053979f6a1bd623646b8672f397b6e6f7454f188b9333d74d7",
-  "notes": "- Closest Node tests cap, rail and interior satin markers against actual generated stitches. Satin cover can use a different direction from the underlay when that gives a shorter join.\n- Route comparisons prioritize fewer trims and shorter jump distance. Sewn travel breaks ties.\n- Optimize Selected Stitch Order checks more same-color sequences while keeping overlap order, and reevaluates the joins after each reorder.\n- Drag Start and End independently on editable satin. Opposite-end markers use one cover sweep. A middle exit uses two sweeps when the travel run can stay under the satin.\n- Select all, Visibility, and the move-to-top and move-to-bottom buttons stay visible when scrolling Objects & Stitch Order. The four buttons share the same height.\n- Downloads and automatic update checks use the RoguePixelLabs GitHub address."
+  "version": "0.2.178",
+  "bytes": 113690624,
+  "sha256": "9d0189f33c1d607d6367f7b44723b4d335e6f92ce55ef75a60e359fbeb360f5e",
+  "notes": "- Digitizing Lab shares the editor\u2019s light and dark colors and has its own GitHub download and update channel.\n- Use Design \u2192 Digitizing Lab for automatic artwork conversion. The editor\u2019s older Auto Digitize dialog has been removed.\n- Color controls open without a hex field. The main editor and Lab share the compact hue and shade picker.\n- Removed unused preview and menu code. Showing and hiding objects now reuses the existing preview buffer."
 }
