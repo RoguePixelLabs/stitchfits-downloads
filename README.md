@@ -6,6 +6,19 @@ Download the ZIP above, extract all files, and open **Stitchfits.exe**. No insta
 Python, Rust, or separate runtime setup is required. Run it from a folder you can
 write to, such as Documents or Desktop.
 
+<!-- screenshots:start -->
+## Screenshots
+
+### Thread View
+
+![Stitchfits Thread View showing a turquoise Tatami fill with a pink satin border and running-stitch detail](screenshots/thread-view.jpg)
+
+### Digitizing workspace
+
+![Stitchfits digitizing workspace showing the same badge in stitch-line view, with Tatami properties and stitch order visible](screenshots/editing-workspace.jpg)
+
+<!-- screenshots:end -->
+
 The app checks for newer tester builds in the background. Use **Help → Check for
 updates** at any time. Save your work, then choose **Restart and update**. The
 application updates in its existing folder and retains the previous EXE as a backup.
