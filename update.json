@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.170",
-  "bytes": 113789440,
-  "sha256": "6949568f8b598271a663e12de5e9dcdb86a88040c38c79017b8a00f50f4a9245",
-  "notes": "Changes since v0.2.161\n\n- New selection size controls keep proportions locked when needed. Detailed Tatami designs resize more reliably and regenerate stitches automatically. Stitchfits reports when it reduces an underlay inset to fit.\n- In Objects & Stitch Order, select ranges with Shift-click, toggle individual rows with Ctrl-click, and show or hide objects in bulk. Drag selected rows together or use the arrows to move them to the top or bottom.\n- Optimize Selected Stitch Order compares cuts, jumps, and travel using the distance between shapes. Closest Node can sew travel before the final fill rows and finish near the next object.\n- Tatami gradients offer adjustable spacing profiles and edge travel. Split a two-color gradient into independently sequenceable color passes.\n- The searchable font library includes a stitch preview. Single-line Arch Up and Arch Down lettering has an editable baseline on the canvas.\n- Raised Satin and the closed Outline tool add more border styles. Rounded nodes show their handles while drawing. Rulers and measurements follow the selected unit.\n- Updated menus, hoop controls, print worksheet and preview zoom, offline Resource Guide, and a Stitch Player speed slider from 0.05x to 10x.\n\nSave your designs before updating. Projects saved with split gradient passes require v0.2.168 or later."
+  "version": "0.2.171",
+  "bytes": 113803264,
+  "sha256": "1842e7eb1a0dbb658e67c8d6756e20ddfd372f43ce92123e30fb399a15814b8f",
+  "notes": "- Optimize Selected Stitch Order regenerates the selected objects' automatic start and end points for the proposed sequence and saves the resulting markers. Manually placed start and end points are preserved.\n- The optimizer can update automatic markers and improve travel while keeping the current order."
 }
