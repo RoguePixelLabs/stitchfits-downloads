@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.178",
-  "bytes": 113690624,
-  "sha256": "9d0189f33c1d607d6367f7b44723b4d335e6f92ce55ef75a60e359fbeb360f5e",
-  "notes": "- Digitizing Lab shares the editor\u2019s light and dark colors and has its own GitHub download and update channel.\n- Use Design \u2192 Digitizing Lab for automatic artwork conversion. The editor\u2019s older Auto Digitize dialog has been removed.\n- Color controls open without a hex field. The main editor and Lab share the compact hue and shade picker.\n- Removed unused preview and menu code. Showing and hiding objects now reuses the existing preview buffer."
+  "version": "0.2.191",
+  "bytes": 111439872,
+  "sha256": "fde1a80f95bfe5b2ba4f2c0c644c66dcb6986b025fc95c146e485a117ba378b5",
+  "notes": "- Multi-angle Tatami and Satin fill can finish near a mid-edge exit without a long sewn return after the cover.\n- The stitch engine uses several direction guides together and keeps start and end markers independent. The new routing covers the return under stitches on suitable end caps.\n- Improved Tatami travel around holes and Satin handling at sharp corners. Straight angle guides use their crossings with the outline to locate the stitch rows.\n- Imported stitch previews and dropped artwork have been refined. Digitizing Lab remains available separately under Design > Digitizing Lab.\n- A paired Tatami test with corner and midpoint exits stitched cleanly on linen. The curved-lettering precision issue remains open."
 }
