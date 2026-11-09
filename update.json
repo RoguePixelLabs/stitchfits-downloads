@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.191",
-  "bytes": 111439872,
-  "sha256": "fde1a80f95bfe5b2ba4f2c0c644c66dcb6986b025fc95c146e485a117ba378b5",
-  "notes": "- Multi-angle Tatami and Satin fill can finish near a mid-edge exit without a long sewn return after the cover.\n- The stitch engine uses several direction guides together and keeps start and end markers independent. The new routing covers the return under stitches on suitable end caps.\n- Improved Tatami travel around holes and Satin handling at sharp corners. Straight angle guides use their crossings with the outline to locate the stitch rows.\n- Imported stitch previews and dropped artwork have been refined. Digitizing Lab remains available separately under Design > Digitizing Lab.\n- A paired Tatami test with corner and midpoint exits stitched cleanly on linen. The curved-lettering precision issue remains open."
+  "version": "0.2.193",
+  "bytes": 111783424,
+  "sha256": "f2d8a4e27bdbbaea1fea10d378d6c66d6433dab85ef5039e82f85efeafd4d614",
+  "notes": "- Stitch Edit lets you move, insert, and delete cover needle points on eligible Run, Satin, Tatami, and imported machine designs. Regenerate Stitches restores shape-based stitches. Saved needle edits to generated objects use project format 54.\n- Manual Needle Stitches and open Motif Run are available in More Tools. Lettering on Path now opens for both open and closed paths.\n- Multi-hooping now opens from Design and keeps the selected stitch engine across whole-object hooping exports.\n- Updated Tatami needle patterns and previews, Satin corners and Auto Jump, Run reinforcement, and fill routing around holes and angled sections.\n- Digitizing Lab has a matching release on its separate channel."
 }
