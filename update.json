@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.193",
-  "bytes": 111783424,
-  "sha256": "f2d8a4e27bdbbaea1fea10d378d6c66d6433dab85ef5039e82f85efeafd4d614",
-  "notes": "- Stitch Edit lets you move, insert, and delete cover needle points on eligible Run, Satin, Tatami, and imported machine designs. Regenerate Stitches restores shape-based stitches. Saved needle edits to generated objects use project format 54.\n- Manual Needle Stitches and open Motif Run are available in More Tools. Lettering on Path now opens for both open and closed paths.\n- Multi-hooping now opens from Design and keeps the selected stitch engine across whole-object hooping exports.\n- Updated Tatami needle patterns and previews, Satin corners and Auto Jump, Run reinforcement, and fill routing around holes and angled sections.\n- Digitizing Lab has a matching release on its separate channel."
+  "version": "0.2.194",
+  "bytes": 111809536,
+  "sha256": "08d32fe21aba4a3ee59d14c8c74953d287128af3ad481b5f12ac9d3497da3255",
+  "notes": "- StitchFits now has a Windows Setup EXE with a Start menu shortcut, optional desktop shortcut, Open With support for .sftx projects, and an uninstall entry in Windows Settings.\n- Installed and portable copies use the existing in-app update channel. Setup installs for your Windows account. Updates verify the download, replace the application in its existing folder, and keep a rollback copy. Installed preferences are stored separately.\n- Closed Satin supports Density Fade and Color Fade with multiple straight or curved guides. Guided gradients use project format 55.\n- Digitizing Lab remains available as an optional download from Design > Digitizing Lab."
 }
