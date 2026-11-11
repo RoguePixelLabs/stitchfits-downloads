@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.194",
-  "bytes": 111809536,
-  "sha256": "08d32fe21aba4a3ee59d14c8c74953d287128af3ad481b5f12ac9d3497da3255",
-  "notes": "- StitchFits now has a Windows Setup EXE with a Start menu shortcut, optional desktop shortcut, Open With support for .sftx projects, and an uninstall entry in Windows Settings.\n- Installed and portable copies use the existing in-app update channel. Setup installs for your Windows account. Updates verify the download, replace the application in its existing folder, and keep a rollback copy. Installed preferences are stored separately.\n- Closed Satin supports Density Fade and Color Fade with multiple straight or curved guides. Guided gradients use project format 55.\n- Digitizing Lab remains available as an optional download from Design > Digitizing Lab."
+  "version": "0.2.195",
+  "bytes": 114242048,
+  "sha256": "36d6dc2cb6162f2b4b0caa36ed41aace59c78cbeb5bdd7f5b77dbac89a1406ca",
+  "notes": "- File and Edit now show standard commands with keyboard shortcuts, including commands pinned to toolbars.\n- Design > Routing groups Apply Closest Node, Optimize Selected Stitch Order, automatic connections, and trim settings. Jumps Only moved here from the top bar.\n- View groups canvas, zoom, and reshape controls. Settings keeps units, theme, display colors, and toolbar customization together.\n- Right-click menus adapt to the selection. Outline / Offset, Weld Fills, and Cut Out Below are in the Shaping flyout.\n- The built-in Resource Guide shows the new menu locations."
 }
