@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.195",
-  "bytes": 114242048,
-  "sha256": "36d6dc2cb6162f2b4b0caa36ed41aace59c78cbeb5bdd7f5b77dbac89a1406ca",
-  "notes": "- File and Edit now show standard commands with keyboard shortcuts, including commands pinned to toolbars.\n- Design > Routing groups Apply Closest Node, Optimize Selected Stitch Order, automatic connections, and trim settings. Jumps Only moved here from the top bar.\n- View groups canvas, zoom, and reshape controls. Settings keeps units, theme, display colors, and toolbar customization together.\n- Right-click menus adapt to the selection. Outline / Offset, Weld Fills, and Cut Out Below are in the Shaping flyout.\n- The built-in Resource Guide shows the new menu locations."
+  "version": "0.2.197",
+  "bytes": 114862592,
+  "sha256": "fafca3b5f6d42c366020eae75c06487c216204f80767a89ef1a775efa5837750",
+  "notes": "- Convert Machine Design recovers editable Run, Satin, and Tatami sections where it can verify the conversion. Compare the results side by side, split sections, and resize to regenerate stitches.\n- Remove unused thread colors in one step. New design previews use a medium gray background.\n- Import supported editable objects from a Hatch 4 e4.5.1 EMB compatibility copy and save changes as a StitchFits project.\n- Capture a PNG of the whole design, current window, or a custom area, with an optional transparent background.\n- Use Mirror-Copy to place horizontal, vertical, or three mirrored copies in one undo step.\n- Create carving stamps on editable Tatami fills. Recovered specialty samples retain supported Motif Fill and carving settings."
 }
