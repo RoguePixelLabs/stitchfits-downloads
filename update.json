@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.197",
-  "bytes": 114862592,
-  "sha256": "fafca3b5f6d42c366020eae75c06487c216204f80767a89ef1a775efa5837750",
-  "notes": "- Convert Machine Design recovers editable Run, Satin, and Tatami sections where it can verify the conversion. Compare the results side by side, split sections, and resize to regenerate stitches.\n- Remove unused thread colors in one step. New design previews use a medium gray background.\n- Import supported editable objects from a Hatch 4 e4.5.1 EMB compatibility copy and save changes as a StitchFits project.\n- Capture a PNG of the whole design, current window, or a custom area, with an optional transparent background.\n- Use Mirror-Copy to place horizontal, vertical, or three mirrored copies in one undo step.\n- Create carving stamps on editable Tatami fills. Recovered specialty samples retain supported Motif Fill and carving settings."
+  "version": "0.2.198",
+  "bytes": 114871808,
+  "sha256": "198b7309c3f6e2da7f1aabb9a2094858ed10d7e959253944a8ac1c14385a919a",
+  "notes": "- Older Wilcom EMB designs can now open as stitch-coordinate previews when StitchFits can verify their stitch positions and encounters an unsupported machine-properties record. Preview-only files still require object recovery for editing and cannot be exported as machine files.\n- Use More Tools to select unlocked, visible objects with the same thread color or stitch type as the selected object.\n- Turn on Show future tools in More Tools to browse planned additions, including Paired Motif Fill, Program Split Outline, and specialty embroidery tools."
 }
