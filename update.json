@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.198",
-  "bytes": 114871808,
-  "sha256": "198b7309c3f6e2da7f1aabb9a2094858ed10d7e959253944a8ac1c14385a919a",
-  "notes": "- Older Wilcom EMB designs can now open as stitch-coordinate previews when StitchFits can verify their stitch positions and encounters an unsupported machine-properties record. Preview-only files still require object recovery for editing and cannot be exported as machine files.\n- Use More Tools to select unlocked, visible objects with the same thread color or stitch type as the selected object.\n- Turn on Show future tools in More Tools to browse planned additions, including Paired Motif Fill, Program Split Outline, and specialty embroidery tools."
+  "version": "0.2.199",
+  "bytes": 122600448,
+  "sha256": "7ab9d32bea2c746cb1d857b01f052b68986f012aba825c287f8246bd2767a34e",
+  "notes": "- Auto Digitize and the photo tools now run inside the StitchFits editor and open results as editable projects. Use the Artwork menu to prepare and trace images, review individual thread colors, and preview stitches. VTracer now uses the reviewed thread palette. Photo Detail, Photo Satin, and Photo Reef have their own image controls.\n- Color Allocation adds Centerline and Satin Line for narrow details. Supported T junctions sew continuously, with a shared center underlay for Satin Line. Optional covered-fill cleanup keeps a small overlap beneath later solid fills. Complex Tatami routing and travel checks help preserve openings and reduce unnecessary movement.\n- The editor adds decorative Run and fill styles, editable Flexi Fill and Embossed Fill, repeatable open and closed offsets, additional motif controls, and Redwork from connected Run paths. Specialty tools include buttonholes, placement markers, quilting layouts, laydown stitches, and staged appliqu\u00e9.\n- Lettering adds automatic and editable kerning, individual letter positioning, spacing and envelope controls, and team-name templates. The design and output tools add print and hooping previews, machine output profiles, and improvements to format import and export.\n- Includes fixes for editing, resizing, previewing, and regenerating converted designs. The main Windows installer and portable download share the same editor and in-app update channel."
 }
