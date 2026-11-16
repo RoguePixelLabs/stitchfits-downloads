@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.214",
-  "bytes": 123231232,
-  "sha256": "1ef32903bccce15f84b28ba0b1b1b42e1300faa9d63c4445e8713e5841832dfe",
-  "notes": "- Branched Tatami can sew through more compensated joins without a jump or trim. The connector follows the receiving fill so later stitches can cover it.\n- Tatami uses fewer short travel stitches along cutouts and fewer short cover stitches at the ends of straight rows.\n- End-of-row spacing now accounts for rounding in machine files such as PES and EXP."
+  "version": "0.2.215",
+  "bytes": 123289600,
+  "sha256": "5230e6de31d2b823daf63fe6a96eeffd9294a444a05000a29442290751182a8d",
+  "notes": "- Sculpture Run now offers separate A and B stitch lengths and run counts for open runs and closed outlines.\n- Tatami removes unnecessary short stitches around tight notches, cutouts, and compensated edges while preserving pinned starts and finishes.\n- The bundled stitch engine now handles simultaneous first startup from preview and export."
 }
