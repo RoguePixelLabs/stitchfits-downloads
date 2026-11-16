@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.205",
-  "bytes": 122874368,
-  "sha256": "90f4bb1fee298f3e725e8b6c5437d45cc6ac2725fde5657ebd4f5545958da867",
-  "notes": "- Add Double Zigzag and adjustable slanted Zigzag underlay for open Satin, with controls for spacing, stitch length, angle and margins.\n- Use same-side Zigzag spacing for new closed Satin and Tatami fills. Existing projects retain their settings and can opt in from Underlay.\n- Keep the cover sequence and pinned entry and exit when using the new Zigzag spacing. Shorten the sewn connection into the cover on supported Edge Run plus Zigzag fills."
+  "version": "0.2.206",
+  "bytes": 122914304,
+  "sha256": "cfdb03cdecd24f4d8d3fcf84135d7873969f4edd5582ae72816229d299cf1bd4",
+  "notes": "- Add Keep cover order for closed Satin and Tatami so underlay changes preserve the top stitch sequence. New Tatami objects enable it by default. Existing objects can enable it under Underlay.\n- Improve Double Tatami underlay routing around cutouts. Underlay passes can change direction and reconnect their support rows around openings to reduce travel while preserving cover stitches.\n- Use the same cover-order setting in the Native and Combined engines."
 }
