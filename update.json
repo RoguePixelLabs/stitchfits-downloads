@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.211",
-  "bytes": 123153920,
-  "sha256": "80019293a89347e0807ade1176ecb4c91a4d7cb10a3274af944256fbe26f3fb7",
-  "notes": "- Keep Tatami underlay and cover connected when the receiving fill uses pull compensation. This reduces jumps and trims on connected shapes, including tested designs with cutouts.\n- Keep standalone Double Zigzag underlay within the drawn outline when pull compensation exceeds the inset. Cover stitch points are preserved."
+  "version": "0.2.212",
+  "bytes": 123208704,
+  "sha256": "14299f1f2ba72a1f7cee8d70338bd9ae6ff412b1bb1cfa8cdfb52c8765f8ae1f",
+  "notes": "- Shorten travel between sections of branched Tatami fills when a later section can cover the connector. The fill keeps its needle positions and start and end points.\n- Keep Tatami underlay ahead of the cover on more notched or cutout shapes, including tested shapes with stronger pull compensation.\n- Re-space some very short connector stitches where the next underlay can be reached beneath the final fill."
 }
