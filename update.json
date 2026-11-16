@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.204",
-  "bytes": 122855424,
-  "sha256": "cf49bdc39a6a6cc76e73538443c5416b475d647ee156a941c87fbd72e53c9063",
-  "notes": "- Add Tatami and Double Tatami underlay to open Satin columns, including curved and tapered columns. Adjust stitch length, spacing, angle and inset per layer.\n- Choose Standard, Borderline or Diagonal backstitch for Tatami underlay.\n- Set separate start and end margins for open Satin underlay. Negative settings extend support past the selected end for an intentional overlap.\n- New Satin branches with a cap-to-side join can stage all underlay before the cover when a continuous route is available."
+  "version": "0.2.205",
+  "bytes": 122874368,
+  "sha256": "90f4bb1fee298f3e725e8b6c5437d45cc6ac2725fde5657ebd4f5545958da867",
+  "notes": "- Add Double Zigzag and adjustable slanted Zigzag underlay for open Satin, with controls for spacing, stitch length, angle and margins.\n- Use same-side Zigzag spacing for new closed Satin and Tatami fills. Existing projects retain their settings and can opt in from Underlay.\n- Keep the cover sequence and pinned entry and exit when using the new Zigzag spacing. Shorten the sewn connection into the cover on supported Edge Run plus Zigzag fills."
 }
