@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.210",
-  "bytes": 123079168,
-  "sha256": "d5d2535a0869751f7056406dcda8892a8317029acbd92eb0969986d08022e502",
-  "notes": "- Improve automatic closest joins on connected Tatami fills. The last cover stitch reaches the chosen side marker on the tested shapes, including steep fill angles in both spacing modes.\n- Improve covered travel on connected fills with cutouts. Eligible support passes can take shorter paths while keeping the top stitching in order.\n- Improve fill compensation around narrow notches and cutouts so regenerated stitches respect the openings."
+  "version": "0.2.211",
+  "bytes": 123153920,
+  "sha256": "80019293a89347e0807ade1176ecb4c91a4d7cb10a3274af944256fbe26f3fb7",
+  "notes": "- Keep Tatami underlay and cover connected when the receiving fill uses pull compensation. This reduces jumps and trims on connected shapes, including tested designs with cutouts.\n- Keep standalone Double Zigzag underlay within the drawn outline when pull compensation exceeds the inset. Cover stitch points are preserved."
 }
