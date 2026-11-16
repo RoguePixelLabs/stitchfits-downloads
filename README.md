@@ -4,7 +4,7 @@
 **Free embroidery digitizing software for Windows.** Create stitch designs from drawings, logos, or lettering. See how the design will sew, then export a file for your embroidery machine.
 
 <!-- tester-download:start -->
-[**Install StitchFits v0.2.211 for Windows**](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.211/StitchFits-Setup-v0.2.211-Windows-x64.exe) · [Portable ZIP](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.211/Stitchfits-Testers-v0.2.211-Windows-x64.zip) · [Release notes](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/tag/v0.2.211)
+[**Install StitchFits v0.2.212 for Windows**](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.212/StitchFits-Setup-v0.2.212-Windows-x64.exe) · [Portable ZIP](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.212/Stitchfits-Testers-v0.2.212-Windows-x64.zip) · [Release notes](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/tag/v0.2.212)
 <!-- tester-download:end -->
 
 ## Install or update
@@ -52,7 +52,7 @@ Tell us what you tried, what you expected, and what happened. Include your Stitc
 Stitchfits is free and open source under GPL-3.0-or-later.
 
 <!-- tester-source:start -->
-[Download the matching source for v0.2.211](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.211/Stitchfits-Source-v0.2.211.zip).
+[Download the matching source for v0.2.212](https://github.com/RoguePixelLabs/stitchfits-downloads/releases/download/v0.2.212/Stitchfits-Source-v0.2.212.zip).
 <!-- tester-source:end -->
 
 ## Auto digitizing and photo tools
