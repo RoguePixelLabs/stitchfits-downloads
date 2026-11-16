@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.207",
-  "bytes": 122973184,
-  "sha256": "e8d556a0786ccc4c986f3f1706d2cfe441224de0accc1db5ad77bc87f3da4830",
-  "notes": "- Add Center Run underlay for closed Tatami. It follows the middle of each connected section before its top stitches, including fills with cutouts.\n- Keep the cover stitch order and pinned entry and exit when Center Run is enabled. The Native and Combined engines both support it.\n- Shorten qualifying Double Tatami underlay turns along straight boundaries while respecting cutouts and underlay stitch length.\n- Shorten the sewn approach into Zigzag underlay on supported fills with a pinned entry."
+  "version": "0.2.208",
+  "bytes": 123043840,
+  "sha256": "f925f45ec6b662c99d1e8501e01fc2f5a81c4f2658e4c258fe6292dce34d6b11",
+  "notes": "- Add Double Zigzag underlay to closed Tatami in the main editor. Adjust stitch length, spacing, and inset in Object Properties.\n- Keep Tatami support stitches under the top stitches at sharp notches and around cutouts, while preserving cover order and start and end points. This works with older and newer Tatami row spacing.\n- Apply Branch Underlay First to Tatami Center Run and Double Zigzag, and shorten eligible connections into branched fills.\n- Update the built-in Resource Guide with the new Tatami and branch controls."
 }
