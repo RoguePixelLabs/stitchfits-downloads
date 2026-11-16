@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.206",
-  "bytes": 122914304,
-  "sha256": "cfdb03cdecd24f4d8d3fcf84135d7873969f4edd5582ae72816229d299cf1bd4",
-  "notes": "- Add Keep cover order for closed Satin and Tatami so underlay changes preserve the top stitch sequence. New Tatami objects enable it by default. Existing objects can enable it under Underlay.\n- Improve Double Tatami underlay routing around cutouts. Underlay passes can change direction and reconnect their support rows around openings to reduce travel while preserving cover stitches.\n- Use the same cover-order setting in the Native and Combined engines."
+  "version": "0.2.207",
+  "bytes": 122973184,
+  "sha256": "e8d556a0786ccc4c986f3f1706d2cfe441224de0accc1db5ad77bc87f3da4830",
+  "notes": "- Add Center Run underlay for closed Tatami. It follows the middle of each connected section before its top stitches, including fills with cutouts.\n- Keep the cover stitch order and pinned entry and exit when Center Run is enabled. The Native and Combined engines both support it.\n- Shorten qualifying Double Tatami underlay turns along straight boundaries while respecting cutouts and underlay stitch length.\n- Shorten the sewn approach into Zigzag underlay on supported fills with a pinned entry."
 }
