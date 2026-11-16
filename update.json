@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.216",
-  "bytes": 123299840,
-  "sha256": "47c020b4cef9a44643fa88f6e234f14aafa9a6ee9d21787f72e999495be5ff20",
-  "notes": "- Backstitch follows curves more closely and reduces very short stitches at sharp turns while preserving the selected overlap.\n- Stemstitch handles tight corners with fewer crowded stitches.\n- Sculpture Run supports up to 15 passes for each A/B segment and honors Fixed and Variable stitch length settings at corners."
+  "version": "0.2.217",
+  "bytes": 123374592,
+  "sha256": "c53cba3a2260dfd99d8061747fdf2fa543d40171c15519411236bce532eb0312",
+  "notes": "- Blanket and Zigzag outlines have editable pull compensation, cleaner acute-angle stitching, and better spacing through calligraphic turns. Blanket adds a Rail stitches control.\n- Zigzag outlines support two independently configurable underlay layers. Choose Center Run, Edge Run, Zigzag, Double Zigzag, Tatami, or Double Tatami.\n- Single Tatami underlay can sew across the outline, and consecutive Tatami passes plan their transitions together before the cover stitches.\n- Projects saved with the new outline settings require StitchFits 0.2.217 or later."
 }
