@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.213",
-  "bytes": 123220992,
-  "sha256": "c960c6c45e300222dfef1c832528b30d45a4335c4841d5644e01b14065922c4c",
-  "notes": "- Branched Tatami can finish its cover stitches at the saved end marker on more cutout and notched shapes. This reduces the visible edge walk after the fill.\n- Keep connectors clear of holes and short gaps at notch edges, with shorter sewn travel where the later fill can cover it.\n- Keep pull compensation at the end of the fill without adding tiny stitches at the join."
+  "version": "0.2.214",
+  "bytes": 123231232,
+  "sha256": "1ef32903bccce15f84b28ba0b1b1b42e1300faa9d63c4445e8713e5841832dfe",
+  "notes": "- Branched Tatami can sew through more compensated joins without a jump or trim. The connector follows the receiving fill so later stitches can cover it.\n- Tatami uses fewer short travel stitches along cutouts and fewer short cover stitches at the ends of straight rows.\n- End-of-row spacing now accounts for rounding in machine files such as PES and EXP."
 }
