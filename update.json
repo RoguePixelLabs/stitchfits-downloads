@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.201",
-  "bytes": 122639872,
-  "sha256": "fd42da5217bd2dc029605247d6e1b4b9bdd0790c604a8673a94e40e802c185a9",
-  "notes": "- Satin, Raised Satin, and Blocks tools now start with aligned needle pairs. New columns use width-based Auto Spacing, with an adjustable percentage and an editable spacing curve. Existing designs keep their saved spacing and alignment choices.\n- Closest Join keeps more same-color Satin columns connected when pull compensation brings their covers together. Connected chains preserve the established entry and route transfers where the receiving column can cover them, reducing unnecessary jumps and trims."
+  "version": "0.2.202",
+  "bytes": 122720768,
+  "sha256": "23560a61f6845e6d2a5d6f9087e7dc98d81d144baf4b2933e12680528c86e169",
+  "notes": "- Closest Join can now enter or exit at the side of a curved Satin column. When exiting midway, the route follows the unfinished part of the column before the cover stitches back to the join.\n- Connected Satin and Tatami branches with Edge Run underlay can share one inset perimeter. Select a member and choose Design > Routing > Toggle Branch Edge Run by Shape. The shared Edge Run and any additional support layers sew before the first cover."
 }
