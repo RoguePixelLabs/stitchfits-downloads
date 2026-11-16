@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.215",
-  "bytes": 123289600,
-  "sha256": "5230e6de31d2b823daf63fe6a96eeffd9294a444a05000a29442290751182a8d",
-  "notes": "- Sculpture Run now offers separate A and B stitch lengths and run counts for open runs and closed outlines.\n- Tatami removes unnecessary short stitches around tight notches, cutouts, and compensated edges while preserving pinned starts and finishes.\n- The bundled stitch engine now handles simultaneous first startup from preview and export."
+  "version": "0.2.216",
+  "bytes": 123299840,
+  "sha256": "47c020b4cef9a44643fa88f6e234f14aafa9a6ee9d21787f72e999495be5ff20",
+  "notes": "- Backstitch follows curves more closely and reduces very short stitches at sharp turns while preserving the selected overlap.\n- Stemstitch handles tight corners with fewer crowded stitches.\n- Sculpture Run supports up to 15 passes for each A/B segment and honors Fixed and Variable stitch length settings at corners."
 }
