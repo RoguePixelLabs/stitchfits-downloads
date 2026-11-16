@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.202",
-  "bytes": 122720768,
-  "sha256": "23560a61f6845e6d2a5d6f9087e7dc98d81d144baf4b2933e12680528c86e169",
-  "notes": "- Closest Join can now enter or exit at the side of a curved Satin column. When exiting midway, the route follows the unfinished part of the column before the cover stitches back to the join.\n- Connected Satin and Tatami branches with Edge Run underlay can share one inset perimeter. Select a member and choose Design > Routing > Toggle Branch Edge Run by Shape. The shared Edge Run and any additional support layers sew before the first cover."
+  "version": "0.2.203",
+  "bytes": 122774016,
+  "sha256": "4f867af6f12d01388717e97aadba27bdf8c73628df3dda891cea5b25a06d19f7",
+  "notes": "- Edit underlay for an entire Satin or Tatami branch in one step. Select a single component to edit it independently.\n- Use Design > Routing > Toggle Branch Underlay First to sew support before the top stitches. The engine takes shorter routes between support passes where the design can cover the travel and keeps sewn travel out of cutouts.\n- Add Double Tatami underlay to Tatami and closed Satin fills. Set the spacing and angle of two perpendicular passes from one layer in the Underlay panel."
 }
