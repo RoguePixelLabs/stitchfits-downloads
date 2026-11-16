@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.203",
-  "bytes": 122774016,
-  "sha256": "4f867af6f12d01388717e97aadba27bdf8c73628df3dda891cea5b25a06d19f7",
-  "notes": "- Edit underlay for an entire Satin or Tatami branch in one step. Select a single component to edit it independently.\n- Use Design > Routing > Toggle Branch Underlay First to sew support before the top stitches. The engine takes shorter routes between support passes where the design can cover the travel and keeps sewn travel out of cutouts.\n- Add Double Tatami underlay to Tatami and closed Satin fills. Set the spacing and angle of two perpendicular passes from one layer in the Underlay panel."
+  "version": "0.2.204",
+  "bytes": 122855424,
+  "sha256": "cf49bdc39a6a6cc76e73538443c5416b475d647ee156a941c87fbd72e53c9063",
+  "notes": "- Add Tatami and Double Tatami underlay to open Satin columns, including curved and tapered columns. Adjust stitch length, spacing, angle and inset per layer.\n- Choose Standard, Borderline or Diagonal backstitch for Tatami underlay.\n- Set separate start and end margins for open Satin underlay. Negative settings extend support past the selected end for an intentional overlap.\n- New Satin branches with a cap-to-side join can stage all underlay before the cover when a continuous route is available."
 }
