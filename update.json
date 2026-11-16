@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.208",
-  "bytes": 123043840,
-  "sha256": "f925f45ec6b662c99d1e8501e01fc2f5a81c4f2658e4c258fe6292dce34d6b11",
-  "notes": "- Add Double Zigzag underlay to closed Tatami in the main editor. Adjust stitch length, spacing, and inset in Object Properties.\n- Keep Tatami support stitches under the top stitches at sharp notches and around cutouts, while preserving cover order and start and end points. This works with older and newer Tatami row spacing.\n- Apply Branch Underlay First to Tatami Center Run and Double Zigzag, and shorten eligible connections into branched fills.\n- Update the built-in Resource Guide with the new Tatami and branch controls."
+  "version": "0.2.209",
+  "bytes": 123056128,
+  "sha256": "36d18cfc3a06106f92febf30520c70716e6a868b2a60f576dbcbbab96733deaa",
+  "notes": "- Solid Tatami finishes its last top stitch at an end marker placed across a cap. This applies to manually placed markers and automatic closest joins, including on concave fills.\n- Shorten eligible Tatami Double Zigzag underlay connections while keeping the top stitch order and cutouts clear. Closed Double Zigzag fits whole stitch pairs into the available space.\n- Shorten covered connections in eligible branches using Underlay First. The engine can reverse a complete Double Zigzag support pass without moving its stitch points."
 }
