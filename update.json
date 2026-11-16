@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.209",
-  "bytes": 123056128,
-  "sha256": "36d18cfc3a06106f92febf30520c70716e6a868b2a60f576dbcbbab96733deaa",
-  "notes": "- Solid Tatami finishes its last top stitch at an end marker placed across a cap. This applies to manually placed markers and automatic closest joins, including on concave fills.\n- Shorten eligible Tatami Double Zigzag underlay connections while keeping the top stitch order and cutouts clear. Closed Double Zigzag fits whole stitch pairs into the available space.\n- Shorten covered connections in eligible branches using Underlay First. The engine can reverse a complete Double Zigzag support pass without moving its stitch points."
+  "version": "0.2.210",
+  "bytes": 123079168,
+  "sha256": "d5d2535a0869751f7056406dcda8892a8317029acbd92eb0969986d08022e502",
+  "notes": "- Improve automatic closest joins on connected Tatami fills. The last cover stitch reaches the chosen side marker on the tested shapes, including steep fill angles in both spacing modes.\n- Improve covered travel on connected fills with cutouts. Eligible support passes can take shorter paths while keeping the top stitching in order.\n- Improve fill compensation around narrow notches and cutouts so regenerated stitches respect the openings."
 }
