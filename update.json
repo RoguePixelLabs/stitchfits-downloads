@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.217",
-  "bytes": 123374592,
-  "sha256": "c53cba3a2260dfd99d8061747fdf2fa543d40171c15519411236bce532eb0312",
-  "notes": "- Blanket and Zigzag outlines have editable pull compensation, cleaner acute-angle stitching, and better spacing through calligraphic turns. Blanket adds a Rail stitches control.\n- Zigzag outlines support two independently configurable underlay layers. Choose Center Run, Edge Run, Zigzag, Double Zigzag, Tatami, or Double Tatami.\n- Single Tatami underlay can sew across the outline, and consecutive Tatami passes plan their transitions together before the cover stitches.\n- Projects saved with the new outline settings require StitchFits 0.2.217 or later."
+  "version": "0.2.218",
+  "bytes": 123401728,
+  "sha256": "871d166b826e0b04225844b4058f6f76d7df6516b8e6b610391fdd8d52d9171b",
+  "notes": "- Set separate start and end points on closed Zigzag and Blanket outlines. The outline routes to its cover seam within the stitched border and finishes at the chosen end point.\n- Closed Zigzag outlines apply the standard Center Run underlay in one lap, removing the extra pass around the border.\n- Zigzag outline Tatami underlay keeps its inset relative to the original border when pull compensation widens the cover. Double Tatami follows the outline through turns, with cleaner transitions and support for its backstitch and density settings."
 }
