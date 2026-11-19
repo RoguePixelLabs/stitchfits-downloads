@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "0.2.218",
-  "bytes": 123401728,
-  "sha256": "871d166b826e0b04225844b4058f6f76d7df6516b8e6b610391fdd8d52d9171b",
-  "notes": "- Set separate start and end points on closed Zigzag and Blanket outlines. The outline routes to its cover seam within the stitched border and finishes at the chosen end point.\n- Closed Zigzag outlines apply the standard Center Run underlay in one lap, removing the extra pass around the border.\n- Zigzag outline Tatami underlay keeps its inset relative to the original border when pull compensation widens the cover. Double Tatami follows the outline through turns, with cleaner transitions and support for its backstitch and density settings."
+  "version": "0.2.219",
+  "bytes": 124162048,
+  "sha256": "5bfa4c9f68b9362206fb6dea3b13e2cdcd679020c9e9b4ac2321908c51f4bb75",
+  "notes": "Improved Satin, Run and underlay generation in StitchFits and its integrated Digitizing Lab.\n\n- Satin uses the same planner in both engine modes, with better start/end preservation and routing around holes.\n- Closed Satin gains width-based Auto Spacing, thread-spacing controls, turning Zigzag, Center Run and Double Zigzag support.\n- Auto Spacing works with Program Split and Flexi Split patterns, including Raised Satin. Curved clipped caps regenerate more reliably.\n- Fewer tiny routing stitches near compensated edges, with checks for cutouts and later stitch coverage.\n- Improved Feather Edge and Hand Stitch on compensated and guided Satin.\n- Run improvements cover minimum stitch length, curved and closed paths, decorative styles, markers, resizing and export.\n- Improved machine-file travel handling and VP3 conversion.\n\nSatin parity work continues. Physical stitch-out testing is not included in this release's verification."
 }
